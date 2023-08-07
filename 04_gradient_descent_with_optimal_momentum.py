@@ -99,7 +99,7 @@ angle = 0
 
 
 
-# Gradient Descent with momentum
+# Gradient Descent with optimized momentum
 while error > 0.001:
 
     error = np.linalg.norm(np.subtract(x_now, x_star))

@@ -52,6 +52,9 @@ angles_optimal_alpha=[]
 angles=[]
 angle=0
 
+
+# Gradient descent with optimal Alpha
+
 # Run untill error is very small
 while error > 0.0001:
 
